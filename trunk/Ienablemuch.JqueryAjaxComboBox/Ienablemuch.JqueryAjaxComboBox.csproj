@@ -73,11 +73,27 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\css\jquery.ajaxComboBox.css" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\add_out.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\add_over.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\ajax-loader.gif" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\ajax-loader_mini.gif" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\btn_on.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\btn_out.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\combobox_button.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\combobox_button_mini.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\del_out.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\del_over.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ng.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ng_mini.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ok.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ok_mini.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\x_select_ok.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\x_select_ok_mini.png" />
+    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\js\jquery.ajaxComboBox.3.7.js" />
     <Content Include="Ienablemuch.Scripts\ParseDynamicContent.js" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
