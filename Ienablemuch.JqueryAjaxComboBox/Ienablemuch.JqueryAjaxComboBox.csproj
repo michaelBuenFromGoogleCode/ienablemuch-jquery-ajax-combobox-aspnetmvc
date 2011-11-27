@@ -71,30 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\php\ajaxComboBox.php" />
-    <None Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\php\initval.php" />
-    <None Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\SQLite2\test.sqlite" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\css\jquery.ajaxComboBox.css" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\add_out.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\add_over.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\ajax-loader.gif" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\ajax-loader_mini.gif" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\btn_on.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\btn_out.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\combobox_button.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\combobox_button_mini.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\del_out.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\del_over.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ng.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ng_mini.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ok.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\img\select_ok_mini.png" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\js\jquery.ajaxcombobox-google-minified.js" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\js\jquery.ajaxComboBox.3.6.1 - Copy.js" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\js\jquery.ajaxComboBox.3.6.1.js" />
-    <Content Include="Ienablemuch.Scripts\Ienablemuch.JqueryAjaxComboBox\js\x_jquery.ajaxcombobox-google-minified.js" />
     <Content Include="Ienablemuch.Scripts\ParseDynamicContent.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
