@@ -630,7 +630,7 @@ Update: 2011-11-26
             // Refactored[1] by Buen
             function showValueCaption(theValue) {
                 // var $xhr2 = $.get( // replaced- by Buen
-                var $xhr2 = $.post( // replaced+ by Buen
+                var $xhr2 = $.post( // replaced+ by Buen. POST is more secure
 						options.init_src,
 						{
 						    'q_word': theValue,
@@ -649,7 +649,8 @@ Update: 2011-11-26
 						        'alt': msg['get_all_alt'],
 						        'title': msg['select_ok']
 						    });
-						}
+						},
+                        "text"
 					);
             } //showValueCaption
 
@@ -1715,7 +1716,7 @@ Update: 2011-11-26
         //************************************************************
         switch (options.lang) {
 
-            //日本語                                          
+            //日本語                                           
             case 'ja':
                 var msg = {
                     'add_btn': '追加ボタン',
@@ -1740,7 +1741,7 @@ Update: 2011-11-26
                 };
                 break;
 
-            //英語                                          
+            //英語                                           
             case 'en':
                 var msg = {
                     'add_btn': 'Add button',
@@ -1765,7 +1766,7 @@ Update: 2011-11-26
                 };
                 break;
 
-            //スペイン語 (Joaquin G. de la Zerda氏からの提供)                                          
+            //スペイン語 (Joaquin G. de la Zerda氏からの提供)                                           
             case 'es':
                 var msg = {
                     'add_btn': 'Agregar boton',
